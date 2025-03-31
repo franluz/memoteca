@@ -1,20 +1,40 @@
 {
-  "pensamentos":[
+  "pensamentos": [
     {
-      "id":1,
-      "conteudo":"que bom que voce veio",
-      "autoria":"Nay",
-      "modelo":"modelo1"
-    } , {
-      "id":2,
-      "conteudo":"que bom que voce foi embora",
-      "autoria":"Nay",
-      "modelo":"modelo2"
-    } , {
-      "id":3,
-      "conteudo":"que bom que voce ainda esta aqui",
-      "autoria":"Nay",
-      "modelo":"modelo3"
+      "id": 1,
+      "conteudo": "que bom que voce veio",
+      "autoria": "Nay",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 2,
+      "conteudo": "que bom que voce foi embora",
+      "autoria": "Nay",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 3,
+      "conteudo": "que bom que voce ainda esta aqui",
+      "autoria": "Nay",
+      "modelo": "modelo3"
+    },
+    {
+      "conteudo": "pensamento de teste",
+      "autoria": "Fran Luz",
+      "modelo": "modelo1",
+      "id": 4
+    },
+    {
+      "conteudo": "cancelar pensamentos",
+      "autoria": "Fran luz",
+      "modelo": "modelo1",
+      "id": 5
+    },
+    {
+      "conteudo": "redirecionamento",
+      "autoria": "fran luz",
+      "modelo": "modelo1",
+      "id": 6
     }
   ]
 }
