@@ -20,6 +20,6 @@ pensamento = {
     alert("Novo pensamento criado")
   }
   cancelar(){
-    alert('cancelar')
+    alert('Cancelar')
   }
 }
