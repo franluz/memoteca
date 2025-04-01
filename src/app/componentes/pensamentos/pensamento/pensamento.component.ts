@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Pensamento } from '../pensamento';
+import { FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-pensamento',
