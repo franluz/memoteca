@@ -39,8 +39,7 @@ export class EditarPensamentoComponent implements OnInit {
       }))
   }
   editarPensamento() {
-    console.log(`escopo objeto {}`,this.formulario.value)
-    this.service.editar(this.formulario.value).subscribe(() =>
+      this.service.editar(this.formulario.value).subscribe(() =>
       this.router.navigate(['/listarPensamento']))
   }
   cancelar() {

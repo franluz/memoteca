@@ -22,7 +22,7 @@ export class CriarPensamentoComponent implements OnInit {
       {
         conteudo: ['', Validators.compose([
           Validators.required,
-          Validators.pattern(/(.|\s)*\S(.|\s)*/), ])],
+          Validators.pattern(/(.|\s)*\S(.|\s)*/),])],
         autoria: ['', Validators.compose([
           Validators.required,
           Validators.minLength(3)
@@ -32,19 +32,18 @@ export class CriarPensamentoComponent implements OnInit {
     )
   }
   criarPensamento() {
-    console.log('Form valores {}',this.formulario.get('autoria')?.errors)
     if (this.formulario.valid) {
       this.service.criar(this.formulario.value).subscribe(() =>
         this.router.navigate(['/listarPensamento']))
     }
-}
+  }
   cancelar() {
     this.router.navigate(['/listarPensamento']);
   }
-  habilitarBotao():String{
-    if(this.formulario.valid){
+  habilitarBotao(): String {
+    if (this.formulario.valid) {
       return 'botao';
-    }else{
+    } else {
       return 'botao__desabilitado'
     }
 
