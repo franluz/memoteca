@@ -2,7 +2,7 @@
   <header class="header">
     <h2>Adicione um <br> pensamento novo</h2>
   </header>
-  <form *ngIf="formulario"  [formGroup]="formulario">
+ <form [formGroup]="formulario">
     <label for="pensamento">Pensamento</label>
     <input type="textarea"
             class="input"
@@ -74,6 +74,7 @@
         </div>
         <div class="acoes">
           <button (click)="editarPensamento()"
+          [disabled]="!formulario.valid"
           [ngClass]="habilitarBotao()">Salvar</button>
           <button (click)="cancelar()" class="botao" routerLink="/listarPensamento" >Cancelar</button>
         </div>
