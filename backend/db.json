@@ -1,12 +1,6 @@
 {
   "pensamentos": [
     {
-      "id": 1,
-      "conteudo": "que bom que voce veio",
-      "autoria": "Nay",
-      "modelo": "modelo1"
-    },
-    {
       "id": 2,
       "conteudo": "que bom que voce foi embora",
       "autoria": "Nay",
@@ -14,8 +8,8 @@
     },
     {
       "id": 3,
-      "conteudo": "que bom que voce ainda esta aqui",
-      "autoria": "Nay",
+      "conteudo": "Me sinto tao amado isso faz bem ",
+      "autoria": "Fran Luz",
       "modelo": "modelo3"
     },
     {
