@@ -26,6 +26,13 @@
 
   padding: 2rem;
 }
+.mensagem__erro {
+  font-size: 12px;
+  margin-left: 5px;
+  color: red;
+  margin-top: -25px;
+  margin-bottom: 20px;
+}
 
 .criar-pensamentos form label {
   color: #154580;
