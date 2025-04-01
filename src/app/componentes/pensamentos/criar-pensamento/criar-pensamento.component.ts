@@ -39,6 +39,14 @@ export class CriarPensamentoComponent implements OnInit {
     }
 }
   cancelar() {
-    alert('Cancelar')
+    this.router.navigate(['/listarPensamento']);
+  }
+  habilitarBotao():String{
+    if(this.formulario.valid){
+      return 'botao';
+    }else{
+      return 'botao__desabilitado'
+    }
+
   }
 }
