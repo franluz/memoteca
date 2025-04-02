@@ -2,6 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Pensamento } from '../pensamento';
 import { FormGroup } from '@angular/forms';
 import { PensamentoService } from '../pensamento.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-pensamento',
@@ -17,7 +18,10 @@ export class PensamentoComponent implements OnInit {
     favorito: false
   }
   @Input() listaFavoritos: Pensamento[] = []
-  constructor(private service: PensamentoService) { }
+
+  constructor(private service: PensamentoService,
+    private router: Router
+  ) { }
 
   ngOnInit(): void {
   }
