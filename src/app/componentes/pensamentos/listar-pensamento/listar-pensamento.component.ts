@@ -36,4 +36,12 @@ export class ListarPensamentoComponent implements OnInit {
       })
 
   }
+  listarFavoritos() {
+    this.paginaAtual = 1;
+    this.haMaisPensamentos = true
+    this.service.listarPensamentosFavoritos(this.paginaAtual, this.filtro)
+      .subscribe(listaPensamentos => {
+        this.listaPensamentos = listaPensamentos
+      })
+  }
 }
