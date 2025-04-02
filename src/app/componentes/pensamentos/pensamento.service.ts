@@ -35,8 +35,11 @@ export class PensamentoService {
   }
   buscarPorId(id: Number): Observable<Pensamento> {
     const url = `${this.API}/${id}`;
-    console.log('URL', url)
     return this.http.get<Pensamento>(url);
   }
 
+  mudarFavorito(pensamento: Pensamento): Observable<Pensamento> {
+    pensamento.favorito = !pensamento.favorito
+    return this.editar(pensamento)
+  }
 }

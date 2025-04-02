@@ -57,8 +57,18 @@
     width: 100%;
   }
 }
+
 @media screen and (max-width: 426px) {
   .pensamento-p {
     width: 100%;
   }
+}
+
+.botao-editar,
+.botao-excluir,
+.botao-favorito {
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-top: 15px;
 }

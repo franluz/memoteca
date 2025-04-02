@@ -4,37 +4,43 @@
       "id": 2,
       "conteudo": "que bom que voce foi embora",
       "autoria": "Nay",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 3,
       "conteudo": "Me sinto tao amado isso faz bem ",
       "autoria": "Fran Luz",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "conteudo": "pensamento de teste",
       "autoria": "Fran Luz",
       "modelo": "modelo1",
-      "id": 4
+      "id": 4,
+      "favorito": true
     },
     {
       "conteudo": "cancelar pensamentos",
       "autoria": "Fran luz",
       "modelo": "modelo1",
-      "id": 5
+      "id": 5,
+      "favorito": false
     },
     {
       "id": 7,
       "conteudo": "Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   ",
       "autoria": "autoria",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": true
     },
     {
       "conteudo": "Resolver Bug nao consegue? Esfriar a cabeca voce Dev",
       "autoria": "Mestre Yoda",
       "modelo": "modelo1",
-      "id": 8
+      "id": 8,
+      "favorito": true
     }
   ]
 }

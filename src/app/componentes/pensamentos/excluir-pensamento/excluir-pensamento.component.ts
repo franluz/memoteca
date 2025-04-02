@@ -13,7 +13,8 @@ export class ExcluirPensamentoComponent implements OnInit {
     id: 0,
     conteudo: '',
     autoria: '',
-    modelo: ''
+    modelo: '',
+    favorito: false
   }
   constructor(
     private pensamentoService: PensamentoService,
@@ -23,7 +24,6 @@ export class ExcluirPensamentoComponent implements OnInit {
 
   ngOnInit(): void {
     const id = this.route.snapshot.paramMap.get('id')
-    console.log(`id do pensamento {}`,id)
     this.pensamentoService.buscarPorId(parseInt(id!))
       .subscribe((pensamento) => this.pensamento = pensamento)
   }
@@ -34,7 +34,7 @@ export class ExcluirPensamentoComponent implements OnInit {
       })
     }
   }
-  cancelar(){
+  cancelar() {
     this.router.navigate(['/listarPensamento'])
 
   }
