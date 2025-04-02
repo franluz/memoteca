@@ -12,7 +12,7 @@
       "conteudo": "Me sinto tao amado isso faz bem ",
       "autoria": "Fran Luz",
       "modelo": "modelo3",
-      "favorito": false
+      "favorito": true
     },
     {
       "conteudo": "pensamento de teste",
@@ -33,14 +33,14 @@
       "conteudo": "Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   Ficou bem feito hem   ",
       "autoria": "autoria",
       "modelo": "modelo1",
-      "favorito": true
+      "favorito": false
     },
     {
       "conteudo": "Resolver Bug nao consegue? Esfriar a cabeca voce Dev",
       "autoria": "Mestre Yoda",
       "modelo": "modelo1",
       "id": 8,
-      "favorito": true
+      "favorito": false
     }
   ]
 }
